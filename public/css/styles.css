@@ -1,0 +1,42 @@
+body {
+    background-color: #E8E8F0;
+    overflow: hidden;
+}
+
+.navbar{
+    background-color: #3399FF;
+    overflow:hidden;
+
+}
+
+.navbar ul{
+    float : right;
+}
+
+.navbar ul li, .navbar ul li a{
+    display: inline-block;
+    font-family: "Lucida Bright", Georgia, serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+    height: 50px;
+
+}
+
+.navbar ul li:hover, .navbar ul li a:hover{
+    border-bottom: 5px solid white;
+    text-decoration: none;
+    /*background-color: #FFF;
+    color: #3399FF;*/
+}
+
+.signmenu{
+    float:right;
+    padding-right: 2%;
+}
+
+.signmenu a{
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFF;
+}

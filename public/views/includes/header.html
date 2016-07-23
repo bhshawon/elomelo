@@ -1,0 +1,23 @@
+<div class="container-fluid">
+	<div class='row'>
+		<div class='navbar'>
+			<div class='signmenu'>
+				{% if user is empty %}
+				<a href="{{ root }}login">Log In</a>
+				or
+				<a href="{{ root }}register">Register</a>
+				{% else %}
+				{{ user }}
+				<a href="logout"> Log Out</a>
+				{% endif %}
+			</div>
+			<ul class='col-sm-12 col-lg-8'>
+				<li class='col-sm-3 col-lg-2'><a href="{{ root }}">Home</a></li> 
+				<li class='col-sm-3 col-lg-2'>Tickets</li>
+				<li class='col-sm-3 col-lg-2'>Contact</li>
+				<li class='col-sm-3 col-lg-2'>About</li>
+			</ul>
+			
+		</div>
+	</div>  
+</div>

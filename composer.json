@@ -1,0 +1,13 @@
+{
+    "name": "bhshawon/elomelo",
+    "description": "A simple PHP MVC framework",
+    "type": "project",
+    "license": "MIT",
+    "keywords": ["framework", "MVC", "elomelo"],
+    "site":"github.com/bhshawon/elomelo",
+    "require": {
+        "nesbot/carbon": "^1.21",
+        "Illuminate/Database": "^5.2",
+        "twig/twig": "^1.24",
+    }
+}
