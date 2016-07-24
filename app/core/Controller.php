@@ -12,7 +12,7 @@ class Controller
 
 		$file = substr((dirname(__FILE__)), 0, -8);
 
-		$loader=new Twig_Loader_Filesystem($file.'public/views'); //can this be fixed too?
+		$loader=new Twig_Loader_Filesystem($file.'public/views'); 
 
 		$cache=$file.'public/compilation_cache';
 
@@ -21,8 +21,8 @@ class Controller
 		if($user=Authenticate::checkLogin())
 			$data['user']=$user['username'];
 		
-		$data['root']=APP_URI; //used here doesn't work
-		// open the template file
+		$data['root']=APP_URI; 
+		
 		echo $twig->render($view, $data);
 	}
 
@@ -34,13 +34,3 @@ class Controller
 
 	
 }
-// route er issue ta kisuta solve hoise
-// though very dirty code
-// but ekhon new ekta jhamelai porsi
-// you get the problem?
-// css/js oi dir e nai, error
-// hmm, thats why i created that APP_URI and APP_URL in config.php
-// wow
-// I tried same thing this morning
-// wasn't working
-// :P anyway, let's ee ur route code

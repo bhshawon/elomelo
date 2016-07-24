@@ -59,8 +59,6 @@ class App
 		});
 	}
 
-
-
 	public function parseURL()
 	{
 		if(!empty($_POST))
@@ -77,7 +75,4 @@ class App
 			var_dump($_REQUEST);
 		}
 	}
-
-
-	
 }
