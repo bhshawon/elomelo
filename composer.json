@@ -5,8 +5,16 @@
     "license": "MIT",
     "keywords": ["framework", "MVC", "elomelo"],
     "site":"github.com/bhshawon/elomelo",
+    "author": [
+        {
+            "name": "Mohammad Shawon",
+            "email": "bhshawon@gmail.com",
+            "homepage": "http://github.com/bhshawon",
+            "role": "developer",
+        }
+    ],
     "require": {
-        "php": ">=5.6.0"
+        "php": ">=5.6.0",
         "nesbot/carbon": "^1.21",
         "Illuminate/Database": "^5.2",
         "twig/twig": "^1.24",
