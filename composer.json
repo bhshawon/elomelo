@@ -1,6 +1,7 @@
 {
     "name": "bhshawon/elomelo",
     "description": "A simple PHP MVC framework",
+    "version": "0.1.0",
     "type": "project",
     "license": "MIT",
     "keywords": ["framework", "MVC", "elomelo"],
