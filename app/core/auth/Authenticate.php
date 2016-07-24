@@ -8,6 +8,7 @@ session_start();
 
 class Authenticate {
 
+	//User register
 	public static function register($username, $password, $email)
 	{
 		$error= [
